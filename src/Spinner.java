@@ -18,6 +18,9 @@ public void show(Player p){
  p.openInventory(inv);
  
  for(i=0; i<100;i++){
+  if(i>50){
+   
+  }
   inv.getItem(11).setInventorySlot(inv.getItem(11)+1);
   inv.getitem(12).setInventorySlot(inv.getItem(12)+1);
   inv.getitem(13).setInventorySlot(inv.getItem(13)+1);
